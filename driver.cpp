@@ -22,7 +22,7 @@ int main() {
     TimerGPU t;
 
     double time = 0.0, condPow=9;
-    int m =1048576, n = 100, trials=10 ;
+    int m =1048576, n = 100, trials=100 ;
     std::vector<double> times(trials);
   
     std::vector<double> operationtimes(8); //need to specify exactly how many categories need to go here. 1:gemm;2:chol;3:triangular solve
